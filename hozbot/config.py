@@ -3,7 +3,7 @@ import pathlib
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from dotenv import find_dotenv, load_dotenv
 
-load_dotenv(find_dotenv(".env"))
+load_dotenv(find_dotenv(".env-non-dev"))
 
 
 class Settings(BaseSettings):
